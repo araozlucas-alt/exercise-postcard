@@ -1,0 +1,53 @@
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Gamja Flower";
+}
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 500px;
+	margin: 0px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+.body-left {
+	width: 225px;
+}
+.body-right {
+	width: 175px;
+}
+input {
+	border: 1px grey;
+	border-style: none none solid none;
+	font-family: "Gamja Flower";
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: light grey;
+	padding: 5px;
+	border: 1px grey;
+	border-style: none outset outset none;
+	font-family: "Gamja Flower";
+}
